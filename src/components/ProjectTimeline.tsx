@@ -23,7 +23,7 @@ const projects: Project[] = [
     name: "relearnable.ai",
     type: "Full-Stack AI SaaS",
     year: "Nov 2025 — Present",
-    description: "A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted remediation paths.",
+    description: "A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.",
     metrics: [
       { label: "60–70% returning users", type: "success" },
       { label: "50%+ faster load times", type: "accent" },

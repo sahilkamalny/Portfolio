@@ -15,14 +15,14 @@ export default function Home() {
           <div className="flex-1 text-center md:text-left">
             <ScrollReveal>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground leading-tight">
-                Building real web products, <br className="hidden md:block" />
-                <span className="text-muted/60">not just projects.</span>
+                Building production web products <br className="hidden md:block" />
+                <span className="text-muted/60">that solve real problems.</span>
               </h1>
             </ScrollReveal>
             
             <ScrollReveal delay={0.1}>
               <p className="mt-6 text-xl text-muted max-w-2xl mx-auto md:mx-0 leading-relaxed">
-                Full-stack software engineer focused on <span className="text-foreground font-medium">clean architecture</span>, <span className="text-foreground font-medium">performance</span>, and <span className="text-foreground font-medium">user retention</span>.
+                Full-stack software engineer focused on <span className="text-foreground font-medium">clean architecture</span>, <span className="text-foreground font-medium">performance</span>, and <span className="text-foreground font-medium">user engagement</span>.
               </p>
             </ScrollReveal>
 
@@ -39,7 +39,7 @@ export default function Home() {
                   href="/resume"
                   className="inline-flex items-center justify-center h-12 px-8 text-base font-medium rounded-full border border-border hover:bg-card hover:border-accent/50 transition-all duration-200"
                 >
-                  Resume (PDF)
+                  Download Resume
                 </Link>
               </div>
             </ScrollReveal>
@@ -51,7 +51,7 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-success opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-success"></span>
                 </span>
-                Founder &amp; engineer of <span className="font-semibold text-foreground">relearnable.ai</span> — 60-70% returning users
+                Founder & Lead Engineer, <span className="font-semibold text-foreground">relearnable.ai</span> - AI SaaS with 60-70% returning users
               </div>
             </ScrollReveal>
           </div>
@@ -59,12 +59,12 @@ export default function Home() {
           {/* Profile Image */}
           <ScrollReveal delay={0.2}>
             <div className="relative w-48 h-48 md:w-64 md:h-64 shrink-0">
-              <div className="relative w-full h-full rounded-full border-4 border-background overflow-hidden shadow-2xl">
+              <div className="relative w-full h-full rounded-full border-4 border-background overflow-hidden">
                 <Image 
                   src="/profile.png" 
                   alt="Sahil Kamal" 
                   fill 
-                  className="object-cover translate-x-4 translate-y-2"
+                  className="object-cover object-left-top scale-[1.45] translate-x-[15px] translate-y-4"
                   priority
                 />
               </div>
@@ -104,13 +104,13 @@ export default function Home() {
             <h2 className="relative text-2xl font-semibold text-foreground mb-6">About Me</h2>
             <div className="relative text-muted leading-relaxed space-y-4 text-lg">
               <p>
-                I&apos;m a software engineer who believes that <span className="text-foreground font-medium">great code is invisible</span>. It just works—fast, reliably, and intuitively.
+                I&apos;m a software engineer who believes the <span className="text-foreground font-medium">best code is invisible</span> - fast, reliable, and intuitive.
               </p>
               <p>
-                My approach to building product is simple: solve the core problem, minimize friction, and ship often. Whether it's optimizing React re-renders or designing a scalable database schema, I focus on the details that matter to the end user.
+                My approach: solve the core problem, minimize friction, and ship often. From optimizing React re-renders to designing scalable databases, I focus on the details that deliver <span className="text-foreground font-medium">real user impact</span>.
               </p>
               <p>
-                Currently seeking <span className="text-foreground font-medium">Software Engineering Internships for Summer 2026</span>. I'm ready to contribute production-quality code from day one.
+                Currently seeking <span className="text-foreground font-medium">Software Engineering Internships for Summer 2026</span> - ready to contribute <span className="text-foreground font-medium">production-quality code</span> from day one.
               </p>
             </div>
 

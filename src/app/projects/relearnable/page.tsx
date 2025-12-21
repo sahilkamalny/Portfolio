@@ -27,7 +27,7 @@ export default function RelearnableCaseStudy() {
             </span>
           </div>
           <p className="text-lg text-muted leading-relaxed">
-            A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted remediation paths.
+            A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.
           </p>
           
           {/* Metrics */}
@@ -72,7 +72,7 @@ export default function RelearnableCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Overview</h2>
             <p className="text-muted leading-relaxed">
-              relearnable.ai is a full-stack AI learning SaaS I designed and deployed to help users genuinely retain what they learn. The core innovation is a Knowledge Correction Engine—an LLM-driven system that identifies gaps in understanding and generates targeted remediation in real time.
+              relearnable.ai is a full-stack AI learning SaaS I designed and deployed to help users genuinely retain what they learn. The core innovation is a Knowledge Correction Engine—an LLM-driven system that identifies gaps in understanding and generates targeted curriculum in real time.
             </p>
           </section>
 
@@ -96,7 +96,7 @@ export default function RelearnableCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Solution</h2>
             <p className="text-muted leading-relaxed">
-              I built a Knowledge Correction Engine that uses LLM-generated assessments (powered by Google Gemini) to detect where learners have misconceptions. When gaps are identified, the system dynamically generates targeted curriculum trees—structured remediation paths that rebuild mastery from the point of confusion. Instead of restarting learners from the beginning, remediation starts precisely at the point of misunderstanding.
+              I built a Knowledge Correction Engine that uses LLM-generated assessments (powered by Google Gemini) to detect where learners have misconceptions. When gaps are identified, the system dynamically generates targeted curriculum trees—structured learning paths that rebuild mastery from the point of confusion. Instead of restarting learners from the beginning, curriculum starts precisely at the point of misunderstanding.
             </p>
           </section>
 
@@ -142,7 +142,7 @@ export default function RelearnableCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Challenges &amp; Tradeoffs</h2>
             <p className="text-muted leading-relaxed">
-              The main challenge was ensuring LLM-generated remediation felt intentional rather than random. I solved this by designing a tree-based curriculum schema where each node has prerequisite relationships. When the correction engine detects a gap, it walks up the tree to find the true root cause, then generates targeted content from that point. The tradeoff: more complex state management, but significantly more effective remediation.
+              The main challenge was ensuring LLM-generated curriculum felt intentional rather than random. I solved this by designing a tree-based curriculum schema where each node has prerequisite relationships. When the correction engine detects a gap, it walks up the tree to find the true root cause, then generates targeted content from that point. The tradeoff: more complex state management, but significantly more effective curriculum delivery.
             </p>
           </section>
 
