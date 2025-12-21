@@ -64,7 +64,7 @@ export default function Home() {
                   src="/profile.png" 
                   alt="Sahil Kamal" 
                   fill 
-                  className="object-cover object-left-top scale-[1.45] translate-x-[15px] translate-y-4"
+                  className="object-cover object-center scale-[1.45] translate-y-2"
                   priority
                 />
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg p-8 md:p-12 shadow-2xl overflow-hidden">
             {/* Background flourish */}
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-pink-500/10 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
 
             <h2 className="relative text-2xl font-semibold text-foreground mb-6">About Me</h2>
             <div className="relative text-muted leading-relaxed space-y-4 text-lg">
