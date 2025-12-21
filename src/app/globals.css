@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Light mode (default) */
 :root {
   --background: #fafafa;
   --foreground: #171717;
@@ -11,20 +12,7 @@
   --card: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not(.light) {
-    --background: #0a0a0a;
-    --foreground: #e5e5e5;
-    --muted: #a3a3a3;
-    --accent: #3b82f6;
-    --accent-hover: #60a5fa;
-    --success: #22c55e;
-    --border: #262626;
-    --card: #171717;
-  }
-}
-
-/* Manual dark mode override */
+/* Dark mode - ONLY when .dark class is present */
 :root.dark {
   --background: #0a0a0a;
   --foreground: #e5e5e5;

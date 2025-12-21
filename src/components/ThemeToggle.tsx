@@ -8,24 +8,34 @@ export function ThemeToggle() {
 
   useEffect(() => {
     setMounted(true);
-    // Check system preference or stored preference
+    // Check stored preference, default to light
     const stored = localStorage.getItem("theme");
-    // Default to light if no preference is stored
     const dark = stored === "dark";
     setIsDark(dark);
-    document.documentElement.classList.toggle("dark", dark);
+    
+    // Apply the class immediately
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, []);
 
   const toggle = () => {
     const newDark = !isDark;
     setIsDark(newDark);
     localStorage.setItem("theme", newDark ? "dark" : "light");
-    document.documentElement.classList.toggle("dark", newDark);
+    
+    if (newDark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   };
 
   if (!mounted) {
     return (
-      <button className="w-9 h-9 rounded-lg border border-border flex items-center justify-center">
+      <button className="w-9 h-9 rounded-lg border border-border flex items-center justify-center shrink-0">
         <span className="sr-only">Toggle theme</span>
       </button>
     );
@@ -34,7 +44,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggle}
-      className="w-9 h-9 rounded-lg border border-border hover:bg-card flex items-center justify-center transition-colors"
+      className="w-9 h-9 rounded-lg border border-border hover:bg-card flex items-center justify-center transition-colors shrink-0"
       aria-label="Toggle theme"
     >
       {isDark ? (

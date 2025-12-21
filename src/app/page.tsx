@@ -59,23 +59,14 @@ export default function Home() {
           {/* Profile Image */}
           <ScrollReveal delay={0.2}>
             <div className="relative w-48 h-48 md:w-64 md:h-64 shrink-0">
-               {/* Glowing effect */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-accent to-pink-500 opacity-20 blur-2xl animate-pulse"></div>
-              
               <div className="relative w-full h-full rounded-full border-4 border-background overflow-hidden shadow-2xl">
-                 {/* Fallback pattern if image missing */}
-                <div className="w-full h-full bg-gradient-to-br from-muted/20 to-muted/40 flex items-center justify-center text-muted font-mono text-xs">
-                   <Image 
-                    src="/profile.jpg" 
-                    alt="Sahil Kamal" 
-                    fill 
-                    className="object-cover"
-                    onError={(e) => {
-                      // Hiding this element requires client component state, keeping it simple for now
-                      // The div background acts as fallback
-                    }}
-                   />
-                </div>
+                <Image 
+                  src="/profile.png" 
+                  alt="Sahil Kamal" 
+                  fill 
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </ScrollReveal>
