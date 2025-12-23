@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LogoLink } from "@/components/LogoLink";
 
 const corporateSPro = localFont({
   src: "../fonts/CorporateSProMedium.otf",
@@ -39,15 +40,12 @@ export default function RootLayout({
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
           <div className="w-full px-6 md:px-12 h-20 flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold tracking-tight text-foreground hover:text-accent transition-colors shrink-0">
+            <LogoLink className="text-2xl font-bold tracking-tight text-foreground hover:text-accent transition-colors shrink-0">
               Sahil Kamal
-            </Link>
+            </LogoLink>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-10 text-base font-medium">
-              <Link href="/" className="text-muted hover:text-foreground transition-colors">
-                Home
-              </Link>
               <Link href="/projects" className="text-muted hover:text-foreground transition-colors">
                 Projects
               </Link>

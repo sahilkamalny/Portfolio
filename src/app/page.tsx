@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative max-w-7xl mx-auto px-6 pt-20 md:pt-32 pb-20">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-12 md:gap-16">
+      <section className="relative max-w-6xl mx-auto px-6 pt-20 md:pt-32 pb-20">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
           
           {/* Profile Image - Left Column */}
           <ScrollReveal>
-             <div className="relative w-64 h-64 md:w-80 md:h-80 shrink-0">
-              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white">
+             <div className="relative w-56 h-56 md:w-72 md:h-72 shrink-0">
+              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <Image 
                   src="/profile.png" 
                   alt="Sahil Kamal" 
@@ -29,7 +29,7 @@ export default function Home() {
           </ScrollReveal>
 
           {/* Text Content - Right Column */}
-          <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left pt-4 md:pt-0">
+          <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left max-w-xl">
              <ScrollReveal delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-[0.9] mb-6">
                 SOFTWARE<br />ENGINEER
@@ -43,17 +43,12 @@ export default function Home() {
             </ScrollReveal>
             
             <ScrollReveal delay={0.3}>
-              <div className="text-lg text-muted leading-relaxed space-y-4 max-w-2xl">
-                 <p>
-                  Full-stack engineer focused on <span className="text-foreground font-medium">AI-driven applications</span> and <span className="text-foreground font-medium">performance optimization</span>. I build systems that scale - from spaced repetition algorithms validated by educators to async conflict detection that handles scheduling without blocking UX.
-                </p>
-                <p>
-                  Recent work includes a <span className="text-foreground font-medium">production SaaS platform</span> serving 80+ users with 60-70% retention, and frontend optimizations that cut load times by 50% through React memoization and hardware-accelerated CSS.
-                </p>
-                <p>
-                   🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, relearnable.ai
-                </p>
-              </div>
+              <p className="text-lg text-muted leading-relaxed max-w-2xl">
+                CS student who builds and ships <span className="text-foreground font-medium">production software with real users</span>. I founded relearnable.ai, an AI learning platform serving 80+ users with 60-70% retention, where I designed spaced repetition algorithms and cut load times by 50% through React optimization. I thrive on complex problems - from async conflict detection to scalable database architecture - and I&apos;m looking for an <span className="text-foreground font-medium">internship where I can contribute from day one</span>.
+              </p>
+              <p className="text-lg text-muted leading-relaxed mt-4">
+                🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, relearnable.ai
+              </p>
             </ScrollReveal>
 
             {/* CTAs */}
