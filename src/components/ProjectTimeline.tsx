@@ -20,7 +20,7 @@ interface Project {
 const projects: Project[] = [
   {
     slug: "relearnable",
-    name: "relearnable.ai",
+    name: "Relearnable",
     type: "Full-Stack AI SaaS",
     year: "Nov 2025 — Present",
     description: "A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.",

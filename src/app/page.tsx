@@ -39,10 +39,10 @@ export default function Home() {
             
             <ScrollReveal delay={0.3}>
               <p className="text-lg text-muted leading-relaxed max-w-2xl">
-                CS student who builds and ships <span className="text-foreground font-medium">production software with real users</span>. I founded relearnable.ai, an AI learning platform serving 80+ users with 60-70% retention, where I designed spaced repetition algorithms and cut load times by 50% through React optimization. I thrive on complex problems - from async conflict detection to scalable database architecture - and I&apos;m looking for an <span className="text-foreground font-medium">internship where I can contribute from day one</span>.
+                CS student who builds and ships <span className="text-foreground font-medium">production software with real users</span>. I founded Relearnable, an AI learning platform serving 80+ users with 60-70% retention, where I designed spaced repetition algorithms and cut load times by 50% through React optimization. I thrive on complex problems - from async conflict detection to scalable database architecture - and I&apos;m looking for an <span className="text-foreground font-medium">internship where I can contribute from day one</span>.
               </p>
               <p className="text-lg text-muted leading-relaxed mt-4">
-                🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, relearnable.ai
+                🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, Relearnable
               </p>
             </ScrollReveal>
 

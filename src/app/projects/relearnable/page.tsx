@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "relearnable.ai Case Study — Sahil Kamal",
+  title: "Relearnable Case Study — Sahil Kamal",
   description: "A production AI learning SaaS with a Knowledge Correction Engine serving live users.",
 };
 
@@ -20,7 +20,7 @@ export default function RelearnableCaseStudy() {
           </Link>
           <div className="flex items-center gap-3 mb-4">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-              relearnable.ai
+              Relearnable
             </h1>
             <span className="text-sm font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">
               Full-Stack AI SaaS
@@ -72,7 +72,7 @@ export default function RelearnableCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Overview</h2>
             <p className="text-muted leading-relaxed">
-              relearnable.ai is a full-stack AI learning SaaS I designed and deployed to help users genuinely retain what they learn. The core innovation is a Knowledge Correction Engine—an LLM-driven system that identifies gaps in understanding and generates targeted curriculum in real time.
+              Relearnable is a full-stack AI learning SaaS I designed and deployed to help users genuinely retain what they learn. The core innovation is a Knowledge Correction Engine—an LLM-driven system that identifies gaps in understanding and generates targeted curriculum in real time.
             </p>
           </section>
 

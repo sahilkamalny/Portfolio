@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const projects = [
   {
     slug: "relearnable",
-    name: "relearnable.ai",
+    name: "Relearnable",
     type: "Full-Stack AI SaaS",
     description: "A production AI learning platform with a Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.",
     metrics: [
