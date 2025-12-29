@@ -23,21 +23,6 @@ const projects = [
     hasCaseStudy: true,
   },
   {
-    slug: "actuallyfeed",
-    name: "ActuallyFeed",
-    type: "Full-Stack Donation Platform",
-    description: "A donation platform with Stripe webhook integration for an international humanitarian organization, featuring interactive geospatial impact tracking.",
-    metrics: [
-      { label: "4x donation volume (250+)", type: "success" },
-      { label: "80% faster transactions", type: "accent" },
-      { label: "Interactive impact map", type: "muted" },
-    ],
-    stack: ["Next.js", "TypeScript", "Stripe", "Geospatial"],
-    liveUrl: "https://actuallyfeed.com",
-    githubUrl: "https://github.com/sahilkamalny/actuallyfeed",
-    hasCaseStudy: true,
-  },
-  {
     slug: "tratlus",
     name: "Tratlus",
     type: "Full-Stack AI Travel Platform",
@@ -50,6 +35,21 @@ const projects = [
     stack: ["React", "TypeScript", "Firebase", "Google APIs", "Stripe"],
     liveUrl: "https://tratlus.vercel.app/",
     githubUrl: "https://github.com/sahilkamalny/tratlus",
+    hasCaseStudy: true,
+  },
+  {
+    slug: "actuallyfeed",
+    name: "ActuallyFeed",
+    type: "Full-Stack Donation Platform",
+    description: "A donation platform with Stripe webhook integration for an international humanitarian organization, featuring interactive geospatial impact tracking.",
+    metrics: [
+      { label: "4x donation volume (250+)", type: "success" },
+      { label: "80% faster transactions", type: "accent" },
+      { label: "Interactive impact map", type: "muted" },
+    ],
+    stack: ["Next.js", "TypeScript", "Stripe", "Geospatial"],
+    liveUrl: "https://actuallyfeed.com",
+    githubUrl: "https://github.com/sahilkamalny/ActuallyFeed-Portfolio",
     hasCaseStudy: true,
   },
   {

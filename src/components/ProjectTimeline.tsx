@@ -25,9 +25,9 @@ const projects: Project[] = [
     year: "Nov 2025 — Present",
     description: "A production AI learning platform with a real-time Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.",
     metrics: [
-      { label: "80+ users, 1,000+ assessments", type: "success" },
-      { label: "60–70% user retention", type: "accent" },
-      { label: "50%+ faster load times", type: "muted" },
+      { label: "100+ users", type: "success" },
+      { label: "1,300+ assessments", type: "accent" },
+      { label: "99.9% uptime", type: "muted" },
     ],
     stack: ["Next.js", "TypeScript", "PostgreSQL", "Supabase", "Gemini AI"],
     liveUrl: "https://relearnable.ai",
@@ -63,7 +63,7 @@ const projects: Project[] = [
     ],
     stack: ["Next.js", "TypeScript", "Stripe", "Geospatial"],
     liveUrl: "https://actuallyfeed.com",
-    githubUrl: "https://github.com/sahilkamalny/actuallyfeed",
+    githubUrl: "https://github.com/sahilkamalny/ActuallyFeed-Portfolio",
     hasCaseStudy: true,
   },
   {
