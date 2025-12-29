@@ -151,7 +151,7 @@ export default function TratlusCaseStudy() {
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-accent">60%</div>
-                  <div className="text-sm text-muted mt-1">Less manual scheduling</div>
+                  <div className="text-sm text-muted mt-1">Less manual planning</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-foreground">67%</div>

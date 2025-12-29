@@ -58,14 +58,22 @@ export default function RootLayout({
               Sahil Kamal
             </LogoLink>
             
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-10 text-base font-medium">
+            {/* Desktop/Landscape Navigation */}
+            <div className="hidden sm:flex items-center gap-10 text-base font-medium">
               <Link href="/projects" className="text-muted hover:text-foreground transition-colors">
                 Projects
               </Link>
               <Link href="/resume" className="text-muted hover:text-foreground transition-colors">
                 Resume
               </Link>
+              <a 
+                href="https://linkedin.com/in/sahilkamalny" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted hover:text-foreground transition-colors"
+              >
+                LinkedIn
+              </a>
               <a 
                 href="https://github.com/sahilkamalny" 
                 target="_blank" 
@@ -77,8 +85,8 @@ export default function RootLayout({
               <ThemeToggle />
             </div>
 
-            {/* Mobile Navigation */}
-            <div className="flex md:hidden items-center gap-3">
+            {/* Portrait Mobile Navigation */}
+            <div className="flex sm:hidden items-center gap-3">
               <Link href="/projects" className="text-sm text-muted hover:text-foreground transition-colors">
                 Projects
               </Link>

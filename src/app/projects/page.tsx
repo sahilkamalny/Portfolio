@@ -59,7 +59,7 @@ const projects = [
     description: "A desktop AI recipe generator that personalizes recipes based on ingredients, allergies, and dietary constraints, with interactive LLM-driven refinement.",
     metrics: [
       { label: "🏆 RamHacks 2025 Winner", type: "success" },
-      { label: "400+ recipes, 20+ dietary constraints", type: "accent" },
+      { label: "400+ recipes", type: "accent" },
       { label: "35% faster revisions", type: "muted" },
     ],
     stack: ["Java", "JavaFX", "SQL", "OpenAI API"],
