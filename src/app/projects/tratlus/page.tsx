@@ -39,10 +39,10 @@ export default function TratlusCaseStudy() {
               Itineraries in &lt;30 seconds
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              60% less manual scheduling
+              60% less manual planning
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              Google Maps + Calendar APIs
+              67% fewer scheduling overlaps
             </span>
           </div>
 
@@ -154,8 +154,8 @@ export default function TratlusCaseStudy() {
                   <div className="text-sm text-muted mt-1">Less manual scheduling</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-foreground">Zero</div>
-                  <div className="text-sm text-muted mt-1">Calendar conflicts</div>
+                  <div className="text-2xl font-bold text-foreground">67%</div>
+                  <div className="text-sm text-muted mt-1">Fewer scheduling overlaps</div>
                 </div>
               </div>
             </div>

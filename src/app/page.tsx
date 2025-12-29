@@ -39,7 +39,7 @@ export default function Home() {
             
             <ScrollReveal delay={0.3}>
               <p className="text-lg text-muted leading-relaxed max-w-2xl">
-                CS student who builds and ships <span className="text-foreground font-medium">production software with real users</span>. I founded Relearnable, an AI learning platform serving 100+ users at 99.9% uptime, where I designed spaced repetition algorithms and cut load times by 50% through React optimization. I thrive on complex problems - from async conflict detection to scalable database architecture - and I&apos;m looking for an <span className="text-foreground font-medium">internship where I can contribute from day one</span>.
+                Full-stack developer currently building <span className="text-foreground font-medium">Relearnable</span>, an AI learning platform serving 100+ active users. I work across web apps, systems tools, and LLM integrations - comfortable picking up whatever the project needs. Looking for a <span className="text-foreground font-medium">Summer 2026 internship</span> where I can tackle real engineering problems.
               </p>
               <p className="text-lg text-muted leading-relaxed mt-4">
                 🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, Relearnable

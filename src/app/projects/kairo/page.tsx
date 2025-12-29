@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kairo Case Study — Sahil Kamal",
-  description: "An interactive REPL OS shell with 40% improved execution speed.",
+  description: "An interactive REPL OS shell with pipe operations and type inference.",
 };
 
 export default function KairoCaseStudy() {
@@ -27,7 +27,7 @@ export default function KairoCaseStudy() {
             </span>
           </div>
           <p className="text-lg text-muted leading-relaxed">
-            A Python-based interactive REPL shell that unifies OS utilities into a functional architecture with 40% faster execution.
+            A Python-based interactive REPL shell with a recursive descent parser supporting pipe operations and type inference.
           </p>
           
           {/* Metrics */}
@@ -36,13 +36,13 @@ export default function KairoCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
-              100+ chainable commands
+              50+ chainable commands
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              40% faster execution
+              25% fewer runtime errors
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              10+ beta testers
+              18 beta testers
             </span>
           </div>
 
@@ -64,7 +64,7 @@ export default function KairoCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Overview</h2>
             <p className="text-muted leading-relaxed">
-              Kairo is an interactive command-line shell built in Python that reimagines how OS utilities are organized and executed. By consolidating scattered legacy executables into a unified REPL with functional programming patterns, it achieves 40% faster execution and dramatically cleaner code.
+              Kairo is an interactive command-line shell built in Python that reimagines how OS utilities are organized and executed. It features a recursive descent parser supporting pipe operations and a type inference engine that reduces runtime errors.
             </p>
           </section>
 
@@ -138,15 +138,15 @@ export default function KairoCaseStudy() {
             <div className="rounded-lg border border-border bg-card p-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">100+</div>
+                  <div className="text-2xl font-bold text-success">50+</div>
                   <div className="text-sm text-muted mt-1">Chainable commands</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">40%</div>
-                  <div className="text-sm text-muted mt-1">Faster execution</div>
+                  <div className="text-2xl font-bold text-accent">25%</div>
+                  <div className="text-sm text-muted mt-1">Fewer runtime errors</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-foreground">10+</div>
+                  <div className="text-2xl font-bold text-foreground">18</div>
                   <div className="text-sm text-muted mt-1">Beta testers</div>
                 </div>
               </div>

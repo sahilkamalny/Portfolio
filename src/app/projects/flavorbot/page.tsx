@@ -42,10 +42,10 @@ export default function FlavorBotCaseStudy() {
               Most Practical Application of AI
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              400+ recipes processed
+              400+ recipes, 20+ dietary constraints
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              25% faster revisions
+              35% faster revisions
             </span>
           </div>
 
@@ -141,7 +141,7 @@ export default function FlavorBotCaseStudy() {
             <div className="rounded-lg border border-border bg-card p-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">25%</div>
+                  <div className="text-2xl font-bold text-success">35%</div>
                   <div className="text-sm text-muted mt-1">Faster revision turnaround</div>
                 </div>
                 <div>

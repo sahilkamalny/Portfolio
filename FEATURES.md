@@ -134,9 +134,9 @@ Dedicated pages for each featured project.
 | Project | Type | Key Achievement |
 |---------|------|-----------------|
 | Relearnable | AI SaaS | 100+ users, 1,300+ assessments |
-| Tratlus | AI Travel | <30s itinerary generation |
+| Tratlus | AI Travel | <30s itineraries, 67% fewer overlaps |
 | FlavorBot | Desktop AI | RamHacks 2025 Winner |
-| Kairo | OS Shell | 40% faster execution |
+| Kairo | OS Shell | 50+ commands, 25% fewer errors |
 
 ---
 

@@ -196,9 +196,9 @@ npm start
 |---------|------|------------|
 | **[Relearnable](https://relearnable.ai)** | AI SaaS | 100+ users, Knowledge Correction Engine |
 | **[ActuallyFeed](https://actuallyfeed.com)** | Donation Platform | 4x donation volume, Stripe webhooks |
-| **[Tratlus](https://tratlus.vercel.app)** | AI Travel | Google APIs, Stripe integration |
+| **[Tratlus](https://tratlus.vercel.app)** | AI Travel | <30s itineraries, 67% fewer overlaps |
 | **FlavorBot** | Desktop App | 🏆 RamHacks 2025 Winner |
-| **Kairo** | OS Shell | 100+ chainable commands |
+| **Kairo** | OS Shell | 50+ chainable commands |
 
 ---
 
