@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative max-w-6xl mx-auto px-6 pt-20 md:pt-32 pb-20">
+      <section className="relative max-w-6xl mx-auto px-6 pt-8 md:pt-16 pb-20">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
           
           {/* Profile Image - Left Column (instant load) */}

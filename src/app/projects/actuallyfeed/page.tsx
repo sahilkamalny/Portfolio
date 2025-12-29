@@ -57,7 +57,7 @@ export default function ActuallyFeedCaseStudy() {
               Live Site →
             </a>
             <a
-              href="https://github.com/sahilkamalny/actuallyfeed"
+              href="https://github.com/sahilkamalny/ActuallyFeed-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 px-5 text-sm font-medium rounded-lg border border-border hover:border-muted transition-colors"
