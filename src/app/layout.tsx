@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -101,6 +102,7 @@ export default function RootLayout({
             <p>© {new Date().getFullYear()} Sahil Kamal</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
