@@ -42,7 +42,7 @@ export default function FlavorBotCaseStudy() {
               Most Practical Application of AI
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              400+ recipes, 20+ dietary constraints
+              400+ recipes
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
               35% faster revisions
