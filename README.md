@@ -194,7 +194,7 @@ npm start
 
 | Project | Type | Highlights |
 |---------|------|------------|
-| **[Relearnable](https://relearnable.ai)** | AI SaaS | 80+ users, Knowledge Correction Engine |
+| **[Relearnable](https://relearnable.ai)** | AI SaaS | 100+ users, Knowledge Correction Engine |
 | **[ActuallyFeed](https://actuallyfeed.com)** | Donation Platform | 4x donation volume, Stripe webhooks |
 | **[Tratlus](https://tratlus.vercel.app)** | AI Travel | Google APIs, Stripe integration |
 | **FlavorBot** | Desktop App | 🏆 RamHacks 2025 Winner |
