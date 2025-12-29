@@ -35,8 +35,6 @@
 
 </div>
 
-> 📷 *Screenshots coming soon — add your own to the `assets/` folder*
-
 ---
 
 ## ✨ Features
