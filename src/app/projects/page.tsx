@@ -43,9 +43,9 @@ const projects = [
     type: "Full-Stack Donation Platform",
     description: "A donation platform with Stripe webhook integration for an international humanitarian organization, featuring interactive geospatial impact tracking.",
     metrics: [
-      { label: "4x donation volume (250+)", type: "success" },
-      { label: "80% faster transactions", type: "accent" },
-      { label: "Interactive impact map", type: "muted" },
+      { label: "4x donation volume", type: "success" },
+      { label: "250+ donations processed", type: "accent" },
+      { label: "80% faster transactions", type: "muted" },
     ],
     stack: ["Next.js", "TypeScript", "Stripe", "Geospatial"],
     liveUrl: "https://actuallyfeed.com",

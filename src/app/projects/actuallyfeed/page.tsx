@@ -36,13 +36,13 @@ export default function ActuallyFeedCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
-              4x donation volume (250+)
+              4x donation volume
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              80% faster transactions
+              250+ donations processed
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              Interactive impact map
+              80% faster transactions
             </span>
           </div>
 

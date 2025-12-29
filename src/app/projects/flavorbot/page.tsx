@@ -39,7 +39,7 @@ export default function FlavorBotCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
-              Most Practical Application of AI
+              Best Use of AI/ML
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
               400+ recipes
@@ -91,7 +91,7 @@ export default function FlavorBotCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Solution</h2>
             <p className="text-muted leading-relaxed">
-              I built a structured output interface that presents recipes in editable sections. When users request changes—&quot;less salt,&quot; &quot;substitute chicken for tofu&quot;—the system routes those edits back to the OpenAI API with full conversation context. This refinement loop reduced revision turnaround time by 25% and improved first-pass acceptance.
+              I built a structured output interface that presents recipes in editable sections. When users request changes—&quot;less salt,&quot; &quot;substitute chicken for tofu&quot;—the system routes those edits back to the OpenAI API with full conversation context. This refinement loop reduced revision turnaround time by 35% and improved first-pass acceptance.
             </p>
           </section>
 
@@ -139,14 +139,18 @@ export default function FlavorBotCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Results</h2>
             <div className="rounded-lg border border-border bg-card p-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">35%</div>
-                  <div className="text-sm text-muted mt-1">Faster revision turnaround</div>
+                  <div className="text-2xl font-bold text-success">🏆</div>
+                  <div className="text-sm text-muted mt-1">RamHacks 2025 Winner</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">Higher</div>
-                  <div className="text-sm text-muted mt-1">First-pass acceptance rate</div>
+                  <div className="text-2xl font-bold text-accent">400+</div>
+                  <div className="text-sm text-muted mt-1">Recipes generated</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-foreground">35%</div>
+                  <div className="text-sm text-muted mt-1">Faster revisions</div>
                 </div>
               </div>
             </div>
