@@ -219,6 +219,6 @@ npm start
 
 This project is open source under the [MIT License](LICENSE).
 
-**© 2025 Sahil Kamal**
+**© 2026 Sahil Kamal**
 
 </div>
