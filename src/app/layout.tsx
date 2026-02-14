@@ -47,6 +47,7 @@ export default function RootLayout({
             `,
           }}
         />
+
       </head>
       <body
         className={`${corporateSPro.variable} ${geistMono.variable} font-sans antialiased`}
@@ -109,6 +110,28 @@ export default function RootLayout({
             <p>© {new Date().getFullYear()} Sahil Kamal</p>
           </div>
         </footer>
+        <script
+          dangerouslySetInnerHTML={{
+             __html: `
+              (function() {
+                const removeBanner = () => {
+                  const banner = document.querySelector('nextjs-portal') || 
+                                 document.querySelector('[data-nextjs-toast]') || 
+                                 document.querySelector('.nextjs-toast-errors-parent');
+                  if (banner) {
+                    banner.remove();
+                    banner.style.display = 'none';
+                  }
+                };
+                
+                setInterval(removeBanner, 100);
+                setTimeout(removeBanner, 500);
+                setTimeout(removeBanner, 2000);
+                window.addEventListener('load', removeBanner);
+              })();
+             `
+          }}
+        />
       </body>
     </html>
   );

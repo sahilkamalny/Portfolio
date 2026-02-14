@@ -136,7 +136,7 @@ portfolio/
 │   │       └── ScrollReveal.tsx # Scroll animation wrapper
 │   └── fonts/                  # Custom fonts
 ├── public/
-│   ├── profile.png             # Profile image
+│   ├── profile.jpg             # Profile image
 │   └── resume.pdf              # Downloadable resume
 ├── tailwind.config.ts          # Tailwind configuration
 ├── next.config.ts              # Next.js configuration

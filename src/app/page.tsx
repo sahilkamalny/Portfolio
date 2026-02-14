@@ -15,14 +15,26 @@ export default function Home() {
           {/* Profile Image - Left Column (instant load) */}
           <div className="relative w-56 h-56 md:w-72 md:h-72 shrink-0 animate-fade-in">
             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-xl">
-              <Image 
-                src="/profile.png" 
-                alt="Sahil Kamal" 
-                fill 
-                className="object-cover scale-[1.35] -translate-x-3"
-                style={{ objectPosition: '100% 6%' }}
-                priority
-              />
+              {/* Wrapper for absolute positioning and zooming without breaking Next.js Image */}
+              <div 
+                className="absolute"
+                style={{ 
+                  // To ZOOM OUT: Decrease width/height (e.g., 200%, 175%)
+                  width: '190%',
+                  height: '190%',
+                  left: '8%', // Move left (<50%) or right (>50%)
+                  top: '55%',  // Move up (<50%) or down (>50%)
+                  transform: 'translate(-50%, -50%)' 
+                }}
+              >
+                <Image 
+                  src="/profile.jpg" 
+                  alt="Sahil Kamal" 
+                  fill 
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
           </div>
 
@@ -39,10 +51,10 @@ export default function Home() {
             
             <ScrollReveal delay={0.3}>
               <p className="text-lg text-muted leading-relaxed max-w-2xl">
-                Full-stack developer currently building <span className="text-foreground font-medium">Relearnable</span>, an AI learning platform serving 100+ active users. I work across web apps, systems tools, and LLM integrations - comfortable picking up whatever the project needs. Looking for a <span className="text-foreground font-medium">Summer 2026 internship</span> where I can tackle real engineering problems.
+                Full-stack developer currently building <span className="text-foreground font-medium">Relearnable</span>, an AI learning platform serving 100+ active users. I work across the stack on web apps, systems tools, and LLM integrations -- comfortable picking up whatever the project needs. Incoming <span className="text-foreground font-medium">Back End Developer Intern @ IBM</span>.
               </p>
               <p className="text-lg text-muted leading-relaxed mt-4">
-                🏆 <span className="text-foreground font-medium">RamHacks 2025 Winner</span> • Founder, Relearnable
+                <span className="text-foreground font-medium">Incoming @ IBM</span> • CS @ FSC
               </p>
             </ScrollReveal>
 
@@ -95,7 +107,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center">
           <ScrollReveal>
             <h2 className="text-3xl font-bold tracking-tight text-foreground text-center">Get In Touch</h2>
-            <p className="mt-4 text-muted text-lg text-center">Currently seeking Software Engineering Internships for Summer 2026.</p>
+            <p className="mt-4 text-muted text-lg text-center">Incoming Back End Developer Intern @ IBM</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mt-12 px-6">
               <a href="mailto:sahilkamal.dev@gmail.com" className="flex items-center gap-4 p-6 rounded-xl border border-border bg-card hover:border-accent/50 hover:shadow-lg transition-all group">
