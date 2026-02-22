@@ -107,7 +107,6 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center">
           <ScrollReveal>
             <h2 className="text-3xl font-bold tracking-tight text-foreground text-center">Get In Touch</h2>
-            <p className="mt-4 text-muted text-lg text-center">Incoming Back End Developer Intern @ IBM</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mt-12 px-6">
               <a href="mailto:sahilkamal.dev@gmail.com" className="flex items-center gap-4 p-6 rounded-xl border border-border bg-card hover:border-accent/50 hover:shadow-lg transition-all group">
