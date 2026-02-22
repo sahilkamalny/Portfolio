@@ -51,7 +51,7 @@ export default function Home() {
             
             <ScrollReveal delay={0.3}>
               <p className="text-lg text-muted leading-relaxed max-w-2xl">
-                Full-stack developer currently building <span className="text-foreground font-medium">Relearnable</span>, an AI learning platform serving 100+ active users. I work across the stack on web apps, systems tools, and LLM integrations — comfortable picking up whatever the project needs. Incoming <span className="text-foreground font-medium">Back End Developer Intern @ IBM</span>.
+                Full-stack developer currently building <span className="text-foreground font-medium">Relearnable</span>, an AI learning platform serving over 100 active users. I work across the stack on web apps, systems tools, and LLM integrations — comfortable picking up whatever the project needs. Incoming <span className="text-foreground font-medium">Back End Developer Intern @ IBM</span>.
               </p>
               <p className="text-lg text-muted leading-relaxed mt-4">
                 <span className="text-foreground font-medium">Incoming @ IBM</span> • CS @ FSC
