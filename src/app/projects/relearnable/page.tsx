@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Relearnable Case Study — Sahil Kamal",
-  description: "A production AI learning SaaS with a Knowledge Correction Engine serving live users.",
+  description: "AI-powered adaptive learning platform that actively targets your mistakes, deployed as a live production SaaS.",
 };
 
 export default function RelearnableCaseStudy() {
