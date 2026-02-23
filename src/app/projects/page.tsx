@@ -71,7 +71,7 @@ const projects = [
     slug: "kairo",
     name: "Kairo",
     type: "Interactive OS Shell",
-    description: "A Python-based REPL shell with a recursive descent parser supporting pipe operations and type inference, reducing runtime errors by 25%.",
+    description: "Custom terminal shell featuring an orthogonal, modernized command syntax supporting functional programming paradigms via a recurisve descent parser.",
     metrics: [
       { label: "50+ chainable commands", type: "success" },
       { label: "25% fewer runtime errors", type: "accent" },
