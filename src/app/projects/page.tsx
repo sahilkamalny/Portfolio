@@ -41,7 +41,7 @@ const projects = [
     slug: "actuallyfeed",
     name: "ActuallyFeed",
     type: "Full-Stack Donation Platform",
-    description: "A donation platform with Stripe webhook integration for an international humanitarian organization, featuring interactive geospatial impact tracking and real-time tracking.",
+    description: "A donation platform with Stripe webhook integration for an international humanitarian organization, featuring interactive geospatial impact tracking.",
     metrics: [
       { label: "4x donation volume", type: "success" },
       { label: "250+ donations processed", type: "accent" },
