@@ -11,7 +11,7 @@ const projects = [
     slug: "relearnable",
     name: "Relearnable",
     type: "Full-Stack AI SaaS",
-    description: "A production AI learning platform with a Knowledge Correction Engine that detects misconceptions and generates targeted curriculum paths.",
+    description: "A full-stack adaptive learning application that uses AI to generate personalized study content on any topic.",
     metrics: [
       { label: "100+ users", type: "success" },
       { label: "1,300+ assessments", type: "accent" },
