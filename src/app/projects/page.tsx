@@ -26,7 +26,7 @@ const projects = [
     slug: "tratlus",
     name: "Tratlus",
     type: "Full-Stack AI Travel Platform",
-    description: "An AI-assisted travel planning platform that turns swipe-based preferences into personalized itineraries with automatic calendar synchronization.",
+    description: "AI-powered travel planner with swipe-based preference discovery and support for deep constraint customization.",
     metrics: [
       { label: "Itineraries in <30 seconds", type: "success" },
       { label: "60% less manual planning", type: "accent" },
