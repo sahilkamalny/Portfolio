@@ -2,7 +2,7 @@
 
 # sahilkamal.dev
 
-**Personal portfolio and case study site — scroll-animated project timeline, dark/light mode, and dedicated technical deep-dives for each project.**
+**Personal portfolio and case study site — scroll-animated project timeline, light/dark mode, and dedicated technical deep-dives for each project.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
